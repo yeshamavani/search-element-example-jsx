@@ -7,4 +7,11 @@
   display: flex;
   background: #dbdbdb;
 }
-
+.sourceloop-search-element {
+  display: block;
+  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,8 +1,12 @@
-@import url(https://fonts.googleapis.com/icon?family=Material+Icons+Round);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./projects/workflows-creator/src/styles.scss (1) ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap);
+
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons+Round';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap';
+
 @font-face {
   font-family: 'icomoon';
   src: url('icomoon.ttf?n7v7vk') format('truetype');
