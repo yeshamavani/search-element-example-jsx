@@ -110,7 +110,7 @@ function App() {
     if (searchElement.current) {
       const element = searchElement.current;
       element.searchProvider = searchProvider;
-      element.config = config;
+      element.config = new window.SearchConfiguration(config);
       return () => {
         element.removeEventListener("clicked", () => {});
       };
